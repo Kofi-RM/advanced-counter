@@ -111,7 +111,7 @@ export default function AdvancedCounter() {
                 <p>{loading ? "Saving to localStorage" : "Changes saved"}</p>
                 <h4>Count History:</h4>
                 <hr></hr>
-                {/* {parsed.map((num, index) => <p key = {idCount[index]} >{num}</p>)}  */}
+                {parsed.map((num, index) => <p key = {idCount[index]} >{num}</p>)} 
             <p>Use ArrowUp to increment and ArrowDown to decrement.</p>
             </div>
         </div>
